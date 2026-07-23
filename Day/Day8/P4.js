@@ -2,13 +2,13 @@
 var x = 10;
 var x = 20;
 x = 30;
-console.log(x)
+// console.log(x)
 
 if (true) {
     var message = "Hello";
 }
 // var in JS is not block-scoped
-console.log(message);
+// console.log(message);
 
 // ****************************************************
 // let keyword based variable
@@ -20,4 +20,30 @@ console.log(score)
 if(true){
     let secret = "Password@123"; // let in JS is block-scoped
 }
-console.log(secret); //ReferenceError: secret is not defined
+//console.log(secret); //ReferenceError: secret is not defined
+
+// const: variable which cannot be reassignned after its declaration
+if(true){
+    const pi = 3.14159;
+    //pi = 27 //TypeError: Assignment to constant variable.
+}
+// const in JS is block-scoped //ReferenceError: pi is not defined
+// console.log(pi) 
+
+
+// var: function scoped | Not recommended 
+// let & const: block-scoped
+
+// var: function scoped
+function test(){
+    if(true){
+        var a = 10;
+        let b = 20;
+        const c = 30;
+    }
+    // console.log(a); //worked
+    // console.log(b); //not worked
+    // console.log(c); //not worked
+}
+// console.log(a);
+test()
