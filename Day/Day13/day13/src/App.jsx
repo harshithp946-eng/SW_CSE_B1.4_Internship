@@ -7,7 +7,9 @@ import InfoBoxDemo from "./components/PropsTwo";
 import './App.css'
 
 import Counter from "./components/State";
-const name = "Amay";
+
+import ToggleText from "./components/StateTwo";
+const name = "Harshith";
 const isLoggedIn = false;
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
       <InfoBoxDemo />
 
       <Counter />
+
+      <ToggleText />
     </>
     
   )
