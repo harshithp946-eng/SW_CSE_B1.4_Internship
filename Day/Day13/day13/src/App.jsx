@@ -6,7 +6,8 @@ import InfoBoxDemo from "./components/PropsTwo";
 
 import './App.css'
 
-const name = "Harshith";
+import Counter from "./components/State";
+const name = "Amay";
 const isLoggedIn = false;
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
       <ProfileList />
 
       <InfoBoxDemo />
+
+      <Counter />
     </>
     
   )
