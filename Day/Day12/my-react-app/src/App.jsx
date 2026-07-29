@@ -1,5 +1,5 @@
 import{} from "./components/HelloWorld";
-function App() {
+function App() 
   
   return (
     <div>
@@ -8,6 +8,6 @@ function App() {
     
     
   )
-}
+
 
 export default App
