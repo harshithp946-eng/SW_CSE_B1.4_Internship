@@ -1,3 +1,5 @@
+import Button from './components/FunctionalComponent';
+import { LeftArrow,RightArrow } from "./components/FunctionalComponentTwo";
 const name = "Harshith";
 const isLoggedIn = false;
 
@@ -33,6 +35,7 @@ function App() {
       Rule 5:Use expressions,not statements 
     */}
     <p>{isLoggedIn ? "Welcome back!" : "Please login."}</p>
+    <Button />
     </>
   )
 }
