@@ -21,8 +21,9 @@ function App() {
        {/* <UserListHook/> */}
         {/* <ThemeProviderDemo /> */}
         {/* <SimpleNameForm /> */}
-         {/* <SignupForm /> */}
-          <ValidatedForm/>
+         {/* <ValidateddForm/> */}
+         <SignupForm />
+         
     </>
   )
 }
